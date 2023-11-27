@@ -19,7 +19,7 @@ body {
 .media-social {
   color: #fff;
   background-color: var(--bgcolor1);
-  padding: 0.7rem 15rem;
+  padding: 0.7rem 10rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -92,4 +92,10 @@ body {
 
 .navbar .navbar-nav a:hover {
   font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  html {
+    font-size: 70%;
+  }
 }
